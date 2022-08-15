@@ -1,0 +1,12 @@
+.dog-image {
+    height: 450px;
+    border: 1px solid grey;
+    border-radius: 5%;
+}
+
+
+.loading-bar {
+    position: fixed;
+    left: 47%;
+    top:40%;
+}

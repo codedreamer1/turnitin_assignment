@@ -1,0 +1,11 @@
+.brand-btn {
+    cursor: pointer;
+    padding: 10px;
+    margin: 10px;
+}
+
+.actived-btn {
+    background-color: #1a3f3f;
+    color: white;
+    border: 1px solid white;
+}
