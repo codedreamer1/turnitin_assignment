@@ -13,12 +13,6 @@ Solve each of the following coding exercises
 // ms: number of milliseconds
 // returns a Promise that is resolved after ms milliseconds
 function delay(ms) {
-   return new Promise( function (resolve, reject) {
-      setTimeout(resolve, ms);
-   }).then(function(){
-      Console.log(“here resolve function “)
-   })
-)
 } 
 
 
@@ -26,8 +20,6 @@ function delay(ms) {
 // el: element node object
 // moves the element to the right by 100px over a duration of 1 second
 function animateRight(el) {
-	el.style.transform = ‘translate(“100px”)’;
-	el.style.transition= ‘1s’
 } 
 
 
@@ -35,14 +27,8 @@ function animateRight(el) {
 // xs: array
 // returns: a new array, with unique items
 function removeDuplicates(xs) {
-	let newArray = []
-      xs.map(item=>{
-		if(!newArray.includes(item))
-			newArray.push(item)
-})
-
-return newArray;
 } 
+
 
 
 ```
